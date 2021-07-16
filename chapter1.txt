@@ -5,3 +5,11 @@ git status  //to see the files and their status in our project
 git add chapter1.txt  // will add the file in the reposetory
 git commite -m "message you want"  //commite work as a save point
 git log // to see the commited history
+git .  // adds all the files to staging area
+
+working area ------>staging area-------->repository area
+   (our files)       (after add command)       (after commite command)     
+
+git diff chapter3.txt  // will give the difference between previously commited chapter3 file and current chapter3
+git checkout chapter3.txt  // wii rollback cuttent file to previously commited status of the file
+                 
