@@ -3,4 +3,5 @@ this is 1st chapter og the story to understand the git and github
 git init  // to add the git in our project
 git status  //to see the files and their status in our project
 git add chapter1.txt  // will add the file in the reposetory
-
+git commite -m "message you want"  //commite work as a save point
+git log // to see the commited history
